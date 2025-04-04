@@ -58,12 +58,11 @@
 
     display: flex;
     align-items: center;
-    justify-content: space-between; /* 요소 간 여백 자동 조절 */
+    justify-content: space-between; 
     padding: 10px 0;
-    width: 100%; /* 부모 요소 넘지 않도록 설정 */
+    width: 100%;
 }
 
-/* 🌟 계좌명 + 금액이 너무 넓어지지 않도록 설정 */
 .body-mid .container > div {
     flex-grow: 1; 
     min-width: 0; 
@@ -86,7 +85,6 @@
     background-color: white;
 }
 
-/* 🌟 계좌명 + 금액이 너무 넓어지지 않도록 설정 */
 .body-last .container > div {
     flex-grow: 1; /* 남는 공간 차지 */
     min-width: 0; /* 내용이 넘치지 않도록 설정 */
@@ -111,8 +109,8 @@
 }
 
 .accounts-name {
-    flex-grow: 1; /* 텍스트가 남은 공간을 차지하도록 설정 */
-    min-width: 0; /* 줄바꿈 문제 해결 */
+    flex-grow: 1;
+    min-width: 0; 
 }
 
 /* 🌟 금액 */
@@ -154,11 +152,8 @@
     font-size: 0.8rem;
     text-align: center;
 
-    /* 🌟 버튼 크기 고정 */
     width: 1px; 
     min-width: 50px;
-
-    /* 🌟 버튼이 자동으로 늘어나지 않도록 설정 */
     flex: none;
 }
 
@@ -182,7 +177,6 @@
 
 .scores {width: 375px;}
 
-/* 🌟 하단 네비게이션 */
 .bottom-bar {
     display: flex;
     justify-content: center;
